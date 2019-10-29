@@ -1,13 +1,16 @@
+
 .jumbotron {
-    background-image: url("/assets/img/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-top: 10px;
+    text-align: center;
+    margin-top: 50px;
 }
 
-.jumbotron > h1 {
-    font-family: 'Creepster', cursive;
+.logo {
+    width: 50%;
+    height: auto;
+}
+
+.h1text {
+    font-family: 'Poiret One', Arial, Helvetica, sans-serif;
 }
 
 #newburger {
@@ -15,11 +18,11 @@
 }
 
 #color-override {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 #lefthead {
-    background-color: #5cb85c;
+    background-color: #000000;
     color: white;
     text-align: center;
     font-size: 1.2em;
@@ -30,7 +33,7 @@
 }
 
 #righthead {
-    background-color: #f0ad4e;
+    background-color: #000000;
     color: white;
     text-align: center;
     font-size: 1.2em;
