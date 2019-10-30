@@ -1,4 +1,3 @@
-{{!-- Setup the index.handlebars to have the template that Handlebars can render onto. --}}
 <div class="container">
 
     <div class="jumbotron" style="background:black">
@@ -7,7 +6,7 @@
         <p id="color-override">Burgerfy. Custom burgers at your fingertips.</p>
         <br>
         <panel>
-            <form class="create-form">
+            <form class="create-form" action="/api/burgers" method="POST">
                 <div class="form-group">
                     <label for="newburger" id="color-override">Add your custom burger:</label>
                     <input type="text" id="newburger" name="burger">
@@ -59,3 +58,5 @@
     </div><!-- /row -->
 
 </div><!-- /container -->
+
+<p id="copyright"> COPYRIGHT 2019 </p>
